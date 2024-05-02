@@ -1,0 +1,83 @@
+/* Header */
+.nav{
+    align-items: center;
+    margin: 0 15% ;
+}
+li .active{
+    color: #f82586 !important;
+}
+.btn-primary{
+    background-color: #f82586 !important;
+    border-color: #f82586 !important;
+}
+.btn-primary:hover{
+    color: #f82586 !important;
+    background-color: #f9f9f9 !important;
+    border-color: #f9f9f9 !important;
+}
+
+/* Hero Section */
+.py-5{
+  width: 100%;
+  min-height: 100vh;
+  background: url("images/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+  color: #f9f9f9;
+}
+
+h1{
+    color: #f9f9f9 !important;
+}
+
+/* Our Services */
+.feature-icon i{
+    color: #f82586 !important;
+    
+}
+.icon-link{
+    color: #f82586;
+    text-decoration: none;
+}
+.icon-link:hover{
+    color: #8b0041;
+}
+
+/* Our Work */
+.project-1{
+    background: url("images/project-1.JPG") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-2{
+    background: url("images/project-2.JPG") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-3{
+    background: url("images/project-3.JPG") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-5 h2{
+    visibility: hidden;
+}
+.p-5 p{
+    visibility: hidden;
+}
+
+/* Testimonial Section */
+.carousel-item{
+    background: url("images/testimonials-bg.jpg") top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+ /* Footer */
+ .text-body-primary{
+    color: #f9f9f9 !important;
+ }
+ .list-unstyled i{
+    color: #f82586 !important;
+ }
